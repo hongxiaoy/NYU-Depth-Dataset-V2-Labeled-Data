@@ -12,6 +12,10 @@
 5. The `Map` in `.mat` file should also be treated specially, I got its keys and values in MATLAB and opened them in MATLAB as a table format (can be firstly transposed in MATLAB), then copy the keys and values table to Excel to concatenate as one table with two columns. Finally, saved the Excel file as CSV format.
 6. Above is how to treat different types of data field in `.mat` file. I just put all that field in one dict, and saved them as a `pkl` file. (~5.8GB)
 
+# Visualization
+
+The images and depth images can be easily visualized by `matplotlib` module.
+
 # TODO
 
 - [ ] Maybe I will parse the something like the images out to a single directory, and just place string-like data in `.pkl` file.
